@@ -1,0 +1,6 @@
+.tile-array > table {
+    table-layout: fixed;
+    /* width: 0px; */
+    border-spacing: .5px;
+    /* border-collapse: collapse; */
+}

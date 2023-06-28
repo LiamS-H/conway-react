@@ -1,0 +1,23 @@
+.tile {
+    --tile-width: 20px;
+    width: var(--tile-width);
+    height: var(--tile-width);
+    /* border-radius: 20px; */
+
+    border: 1px solid rgba(25, 25, 25, 1);
+}
+
+.tile.alive {
+    background-color: rgba(100, 100, 100, 1);
+}
+
+@media (prefers-color-scheme: light) {
+    .tile {
+        border: 1px solid rgba(230, 230, 230, 1);
+    }
+
+    .tile.alive {
+        background-color: rgb(200, 200, 200);
+    }
+
+}

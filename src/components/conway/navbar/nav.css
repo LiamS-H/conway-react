@@ -1,0 +1,6 @@
+nav {
+    position: fixed;
+    top: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
